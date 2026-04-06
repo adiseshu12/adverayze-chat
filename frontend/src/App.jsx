@@ -97,7 +97,7 @@ function App() {
           onKeyDown={e => e.key === 'Enter' && sendMessage()}
           placeholder="Type a message..."
         />
-        <button onClick={sendMessage}>Send</button>
+        <button onClick={sendMessage}>Send Message</button>
       </div>
     </div>
   )
